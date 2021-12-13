@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Ideal Projectos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="img/idealProject.ico" type="image/x-icon">
+  <meta name="description"
+    content="Somos a Ideal Projectos, uma empresa angolana que acredita em criar o espaço ideal de acordo com a vida de cada pessoa.">
+</head>
+
+<body>
+  <header class="header" id="home">
+    <div class="logo">
+      <a href="">
+        <img src="img/idealProject.png" alt="Ideal Projectos logotipo">
+      </a>
+    </div>
+    <!-- <img src="img/idealProjectos-26.jpg" alt="projecto da ideal projectos" class="header-img"> -->
+    <div class="menuToggle" onclick="toggleMenu()">
+      <span class="hamburguer"></span>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">Sobre nós</a></li>
+        <li><a href="project.html" onclick="toggleMenu()">Projectos</a></li>
+        <li><a href="blog.html" onclick="toggleMenu()">Blog</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contactos</a></li>
+      </ul>
+
+      <div class="social-menu">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+          <li><a href="#"><i class="fas fa-at"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <div>
+        <h2>Pequenos detalhes, <br> Grandes transformações<span>.</span> </h2>
+        <a href="contact.html">Contactar</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="projectDestaq">
+      <div class="containers">
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <img src="img/idealProjectos-17.jpg" alt="Projecto da Ideal Projecto" class="imgslid" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="img/idealProjectos-13.jpg" alt="Projecto da Ideal Projecto" class="imgslid" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="img/idealProjectos-25.jpg" alt="Projecto da Ideal Projecto" class="imgslid" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="img/idealProjectos-26.jpg" alt="Projecto da Ideal Projecto" class="imgslid" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="img/idealProjectos-03.jpg" alt="Projecto da Ideal Projecto" class="imgslid" style="width:100%" >
+            </div>
+
+            <div class="mySlides">
+              <img src="img/idealProjectos-02.jpg" alt="Projecto da Ideal Projecto" class="imgslid" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="img/idealProjectos-12.jpg" alt="Projecto da Ideal Projecto" class="imgslid" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <img src="img/idealProjectos-22.jpg" alt="Projecto da Ideal Projecto" class="imgslid" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <div class="nextPrevious">
+              <div class="pagination-container">
+                <div onclick="currentSlide(1)">
+                  <span id="pagination" class="pagination active">01</span>
+                </div>
+                <div onclick="currentSlide(2)">
+                  <span id="pagination" class="pagination">02</span>
+                </div>
+                <div onclick="currentSlide(3)">
+                  <span id="pagination" class="pagination">03</span>
+                </div>
+
+                <div onclick="currentSlide(4)">
+                  <span id="pagination" class="pagination">04</span>
+                </div>
+
+                <div onclick="currentSlide(5)">
+                  <span id="pagination" class="pagination">05</span>
+                </div>
+                <div onclick="currentSlide(6)">
+                  <span id="pagination" class="pagination">06</span>
+                </div>
+
+                <div onclick="currentSlide(7)">
+                  <span id="pagination" class="pagination">07</span>
+                </div>
+                <div onclick="currentSlide(8)">
+                  <span id="pagination" class="pagination">08</span>
+                </div>
+              </div>
+              <!--  -->
+              <div class="npBtn">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--About-->
+    <section class="about">
+      <div class="containers about-container">
+        <div class="flex">
+          <div class="about-image">
+            <img src="img/idealTeam.jpg" alt="Team Ideal Projectos">
+          </div>
+  
+          <div class="about-content">
+            <div class="about-cont">
+              <h2 class="about-title">
+                Por uma mais humana, elegante e criativa
+              </h2>
+              <div class="about-text">
+                <p>
+                  Somos Iná, um escritório independente paulistano que acredita em
+                  criar espaços de acordo com a vida das pessoas. Fundado em 2011,
+                  hoje somos três sócios, Karen, Júlio e Marcos, que acompanham cada
+                  ideia e cada projeto como se fossem seus.
+                </p>
+              </div>
+              <a href="about.html" class="about-link">saber mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project">
+      <div class="containers project-container">
+        <h2 class="project-title">Projectos Recentes</h2>
+        <div class="flex pp">
+          <div class="project-img">
+            <img src="img/idealProjectos-28.jpg" alt="Projectos recentes Ideal Projectos">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title-text">
+              Casa da Belle e do Fernando 
+            </h3>
+            <p class="project-text">
+              Uma onde o passado e o contemporâneo coexistem.
+            </p>
+            <a href="project.html" class="about-link">saber mais</a>
+          </div>
+        </div>
+
+        <div class="flex pp">
+          <div class="project-content pr">
+            <h3 class="project-title-text">
+              Casa da Belle e do Fernando 
+            </h3>
+            <p class="project-text">
+              Uma onde o passado e o contemporâneo coexistem.
+            </p>
+            <a href="project.html" class="about-link">saber mais</a>
+          </div>
+          <div class="project-img">
+            <img src="img/idealProjectos-28.jpg" alt="Projectos recentes Ideal Projectos">
+          </div>
+        </div>
+
+        <div class="flex pp">
+          <div class="project-img">
+            <img src="img/idealProjectos-28.jpg" alt="Projectos recentes Ideal Projectos">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title-text">
+              Casa da Belle e do Fernando 
+            </h3>
+            <p class="project-text">
+              Uma onde o passado e o contemporâneo coexistem.
+            </p>
+            <a href="project.html" class="about-link">saber mais</a>
+          </div>
+        </div>
+
+        <div class="projectMore">
+          <a href="project.html" class="about-link">Ver mais projectos</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <ul>
+        <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">Sobre nós</a></li>
+        <li><a href="project.html" onclick="toggleMenu()">Projectos</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contactos</a></li>
+      </ul>
+      <ul>
+        <li><a href="#" target="__blank" ><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#" target="__blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" target="__blank"><i class="fab fa-whatsapp"></i></a></li>
+      </ul>
+
+    </div>
+    <div class="copy">
+      <span>Ideal Projectos - &copy; Todos direitos reservados,</span>
+      <span> powered by: <a target="__blank" href="https://www.unituenda.ao/">uniTuenda</a></span>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

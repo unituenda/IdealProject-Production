@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link rel="shortcut icon" href="img/idealProject.ico" type="image/x-icon">
+</head>
+<body>
+  <main>
+    <div>
+      <div class="menuUser" id="dropdown-icon">
+        <span><span>Admin </span>
+        <i class="fas fa-user"></i>
+        <i class="fas fa-caret-down"></i></span>
+      </div>
+
+      <div class="dropdown">
+        <span class="dropdown-head"></span>
+        <ul class="dropdown-list">
+          <li class="dropdown-item">
+            <a href="profile.html" class="dropdown-link">
+              <i class="fas fa-user icon"></i>
+              Perfil
+            </a>
+          </li>
+          <li class="dropdown-item">
+            <a href="write.html" class="dropdown-link">
+              <i class="fas fa-pen-alt icon"></i>
+              Escrever
+            </a>
+          </li>
+          <li class="dropdown-item">
+            <a href="admin.html" class="dropdown-link">
+              <i class="fas fa-book icon"></i>
+              Artigos
+            </a>
+          </li>
+          <li class="dropdown-item">
+            <a href="login.html" class="dropdown-link">
+              <i class="fas fa-power-off icon"></i>
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="heading">
+      <h1>Benvindo</h1>
+      <p>Ao painel de Administrador</p>
+    </div>
+
+    <section class="blogs">
+      <h1 class="title">Artigos <span>Cadastrados </span> <a href="write.html" class="btn"> Escrever <i class="fas fa-pen"></i></a></h1>
+      <div class="estruturas">
+        <div>
+          <div class="card">
+            <div class="card-header">
+              <h4>Categorias</h4>
+            </div>
+            <table class="table table-striped">
+              <thead class="thead-inverse">
+                <tr>
+                  <th>Id</th>
+                  <th>Título</th>
+                  <th>Slug</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row">1</td>
+                  <td>Post One</td>
+                  <td>Web Development</td>
+                  <th>
+                    <a href="edit.html" class="btn btn-warning">
+                      <i class="fa fa-edit"></i>
+                    </a>
+
+                    <button class="btn btn-danger">
+                      <i class="fa fa-trash"></i>
+                    </button>
+                  </th>
+                </tr>
+                <tr>
+                  <td scope="row">2</td>
+                  <td>Post Two</td>
+                  <td>Tech Gadgets</td>
+                  <th>
+                    <a href="edit.html" class="btn btn-warning">
+                      <i class="fa fa-edit"></i>
+                    </a>
+
+                    <button class="btn btn-danger">
+                      <i class="fa fa-trash"></i>
+                    </button>
+                  </th>
+                </tr>
+                <tr>
+                  <td scope="row">3</td>
+                  <td>Post Three</td>
+                  <td>Web Development</td>
+                  <th>
+                    <a href="edit.html" class="btn btn-warning">
+                      <i class="fa fa-edit"></i>
+                    </a>
+
+                    <button class="btn btn-danger">
+                      <i class="fa fa-trash"></i>
+                    </button>
+                  </th>
+                </tr>
+                <tr>
+                  <td scope="row">4</td>
+                  <td>Post Four</td>
+                  <td>Business</td>
+                  <th>
+                    <a href="edit.html" class="btn btn-warning">
+                      <i class="fa fa-edit"></i>
+                    </a>
+
+                    <button class="btn btn-danger">
+                      <i class="fa fa-trash"></i>
+                    </button>
+                  </th>
+                </tr>
+                <tr>
+                  <td scope="row">5</td>
+                  <td>Post Five</td>
+                  <td>Web Development</td>
+                  <th>
+                    <a href="edit.html" class="btn btn-warning">
+                      <i class="fa fa-edit"></i>
+                    </a>
+
+                    <button class="btn btn-danger">
+                      <i class="fa fa-trash"></i>
+                    </button>
+                  </th>
+                </tr>
+                <tr>
+                  <td scope="row">6</td>
+                  <td>Post Six</td>
+                  <td>Health &amp; Wellness</td>
+                  <th>
+                    <a href="edit.html" class="btn btn-warning">
+                      <i class="fa fa-edit"></i>
+                    </a>
+
+                    <button class="btns btn-danger">
+                      <i class="fa fa-trash"></i>
+                    </button>
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      </section>
+
+  </main>
+  <footer>
+    <div class="footer-content">
+
+      <div class="copy">
+        <span>Ideal Projectos - &copy; Todos direitos reservados,</span>
+        <span> powered by: <a href="uniTuenda.ao">uniTuenda</a></span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

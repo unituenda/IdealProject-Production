@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrever</title>
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="shortcut icon" href="img/idealProject.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <div class="menuUser" id="dropdown-icon">
+          <span><span>Admin </span>
+          <i class="fas fa-user"></i>
+          <i class="fas fa-caret-down"></i></span>
+        </div>
+  
+        <div class="dropdown">
+          <span class="dropdown-head"></span>
+          <ul class="dropdown-list">
+            <li class="dropdown-item">
+              <a href="profile.html" class="dropdown-link">
+                <i class="fas fa-user icon"></i>
+                Perfil
+              </a>
+            </li>
+            <li class="dropdown-item">
+              <a href="write.html" class="dropdown-link">
+                <i class="fas fa-pen-alt icon"></i>
+                Escrever
+              </a>
+            </li>
+            <li class="dropdown-item">
+              <a href="admin.html" class="dropdown-link">
+                <i class="fas fa-book icon"></i>
+                Artigos
+              </a>
+            </li>
+            <li class="dropdown-item">
+              <a href="login.html" class="dropdown-link">
+                <i class="fas fa-power-off icon"></i>
+                Logout
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="heading">
+        <h1>Benvindo</h1>
+        <p><a href="admin.html">Home >> Voltar</a></p>
+      </div>
+
+      <section class="blogs">
+        <h1 class="title">Escrever <span>Artigos </span> <a href="admin.html" class="btn"><i class="fas fa-arrow-left"></i> Voltar</a></h1>
+        <div class="estruturas">
+          <div>
+            <div class="card">
+              <div class="card-header">
+                <h2>Novo Artigo</h2>
+              </div>
+              <div class="card-body">
+                <form action="" method="" class="form-block form-plr-15 form-h-45 form-mb-20 form-brdr-lite-white mb-md-50">
+                  <input type="text" class="custom-file-input" name="title"
+                    placeholder="Defina o título do artigo">
+                    <br>
+                    <input type="file" name="" class="custom-file-input" id="">
+                  <textarea class="form-control" placeholder="Escreva o artigo
+                    Aqui!" value="simaosad k," name="body" id="article" cols="30" rows="13"></textarea><br>
+                  <button class="btn btn-success">Cadastar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="copy">
+          <span>Ideal Projectos - &copy; Todos direitos reservados,</span>
+          <span> powered by: <a href="uniTuenda.ao">uniTuenda</a></span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="tinymce/tinymce.min.js"></script>
+  <script>
+    tinymce.init({
+      language: 'pt_BR',
+      selector: "#article",
+      height: 400,
+      plugins: [
+        'advlist autolink link image lists print preview hr searchreplace wordcount fullscreen insertdatetime media save table paste emoticons'
+      ]
+    })
+  </script>
+  <script src="js/script.js"></script>
+
+  </body>
+
+</html>
